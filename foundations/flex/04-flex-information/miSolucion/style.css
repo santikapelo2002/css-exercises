@@ -1,17 +1,33 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  
 }
 
+.contenedorFrutas{
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+margin-top: 2%;
+
+
+}
 img {
   width: 100px;
   height: 100px;
+  margin-left: 80px;
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+  
 }
-
+.p{
+  display: block;
+  
+}
 /* do not edit this footer */
 .footer {
   position: fixed;
